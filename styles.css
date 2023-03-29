@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: auto;
+}
+
+header {
+    width: 1600px;
+    background-color: #fff;
+    opacity: .5;
+    position: fixed;
+}
+
+header:hover {
+    width: 1600px;
+    background-color: #fff;
+    opacity: 1;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 5em;
+    margin: 2em 0;
+}
+
+.body-content {
+    height: 950px;
+    background-image: url("bgimage.jpg");
+}
+
+.h1-content {
+    margin: 0;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #fff;
+    opacity: .5;
+}
+
+.h1-content:hover {
+    color: #fff;
+    font-size: 5rem;
+    opacity: 1;
+}
+
+.middle-class {
+    margin: 10em 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: start;
+    gap: 10em;
+}
+
+.card1:hover {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.card2:hover {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.about {
+    margin: 5em 0;
+}
+
+.about_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_p {
+    margin: 1.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+}
+
